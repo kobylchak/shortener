@@ -87,7 +87,6 @@ public class Shrotener {
             for (int i = 0; i <= keyLength; i++) {
                 key += myChars[myRand.nextInt(62)];
             }
-            // System.out.println("Iteration: "+ counter + "Key: "+ key);
             if (!keyMap.containsKey(key)) {
                 flag = false;
             }
